@@ -81,9 +81,9 @@ for numbers in range(int(numberofpages)):
 
         linkslength.append(i)
 
-    with open("links.txt", "a") as file:
-        
-        file.write(i)
+        with open("links.txt", "a") as file:
+
+            file.write(i)
     
 print("Found " + str(len(linkslength)) + " " + "Links!")
 
